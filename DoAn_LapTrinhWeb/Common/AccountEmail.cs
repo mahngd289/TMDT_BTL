@@ -11,11 +11,12 @@ namespace DoAn_LapTrinhWeb.Common
         //để dùng google email gửi email reset cho người khác bạn cần phải vô đây "https://www.google.com/settings/security/lesssecureapps" Cho phép ứng dụng kém an toàn: Bật
         public const string Host = "smtp.gmail.com"; //tên mấy chủ nếu bạn dùng gmail thì đổi  "Host = "smtp.gmail.com"
         //tài khoản email của bạn
-        public const string UserEmail = "suabottothandh@gmail.com";
-        public const string UserEmailSupport = "hoandoan265104@gmail.com";
+        public const string UserEmail = "manhnguyen197155@gmail.com";
+        public const string UserEmailSupport = "manhnguyen197155@gmail.com";
         //Mật khẩu Email của bạn
-        public const string Password = "hoan265104";
+        public const string Password = "ubnb mggq xwln yxks";
         //Tên Email bạn muốn hiển thị khi gửi
         public const string Name = "SuabottotH&H";
+        //điền mail của ô vào đi
     }
 }

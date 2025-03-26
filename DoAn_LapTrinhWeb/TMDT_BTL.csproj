@@ -152,9 +152,11 @@
       <HintPath>..\packages\Syncfusion.XlsIO.AspNet.Mvc5.19.3.0.55\lib\net45\Syncfusion.XlsIO.Base.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
@@ -279,6 +281,7 @@
     </Compile>
     <Compile Include="Hubs\Hubs.cs" />
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Models\RolesPermissions.cs" />
     <Compile Include="Models\Roles.cs" />
     <Compile Include="Models\Permissions.cs" />
@@ -3337,6 +3340,7 @@
     <Content Include="bin\roslyn\vbc.rsp" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
     <Content Include="Content\my_css\bootstrap.min.css.map" />
+    <None Include="Common\.editorconfig" />
     <None Include="Dockerfile" />
     <None Include=".dockerignore">
       <DependentUpon>Dockerfile</DependentUpon>

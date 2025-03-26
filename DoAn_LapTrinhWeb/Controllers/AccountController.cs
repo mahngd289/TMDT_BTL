@@ -382,6 +382,8 @@ namespace DoAn_LapTrinhWeb.Controllers
         [NonAction]
         public void SendVerificationLinkEmail(string emailID, string activationCode, string emailFor)
         {
+            //đặt debug thì ô để ntn này, chạy đăng ký thì nó tự nhảy vào debug
+            // pass: Aa@123456
             // đường dẫn mail gồm có controller "Account"  +"emailfor" +  "code reset đã được mã hóa(mội lần gửi email quên mật khẩu sẽ random 1 code reset mới"
             var verifyUrl = "/Account/" + emailFor + "/" + activationCode;
             ///để dùng google email gửi email reset cho người khác bạn cần phải vô đây "https://www.google.com/settings/security/lesssecureapps" Cho phép ứng dụng kém an toàn: Bật
