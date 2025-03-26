@@ -30,7 +30,7 @@ namespace DoAn_LapTrinhWeb.Models
         public string Requestcode { get; set; }
         //Name
         [Required(ErrorMessage = "Nhập họ tên")]
-        [StringLength(20, ErrorMessage = "Họ tên tối đa 20 ký tự",MinimumLength = 1)]
+        [StringLength(100, ErrorMessage = "Họ tên tối đa 100 ký tự",MinimumLength = 5)]
         [DataType(DataType.Text)]
         public string Name { get; set; }
         //Phone Number

@@ -38,7 +38,7 @@ namespace DoAn_LapTrinhWeb.Models
         [StringLength(1)] public string Role { get; set; }
         //Name
         [Required(ErrorMessage = "Nhập họ tên")]
-        [StringLength(20, ErrorMessage = "Họ tên tối đa 20 ký tự",MinimumLength = 1)]
+        [StringLength(100, ErrorMessage = "Họ tên tối đa 100 ký tự",MinimumLength = 1)]
         public string Name { get; set; }
         //Phone Number
         [StringLength(11)]

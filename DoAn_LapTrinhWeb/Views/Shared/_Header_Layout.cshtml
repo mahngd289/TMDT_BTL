@@ -306,6 +306,7 @@
                                         <span class="material-icons">local_offer</span><div id="elementID">Khuyến Mãi</div>
                                     </a>
                                 </li>
+                                <!--
                                 <li>
                                     <a class="d-flex" href="@Url.Action("NewsIndex", "News")">
                                         <span class="material-icons">feed</span><div id="elementID">Tin tức</div><span class="material-icons dropdown--menu-arrow">arrow_drop_down</span>
@@ -314,6 +315,7 @@
                                         @Html.Action("Listcategory", "News")
                                     </ul>
                                 </li>
+                                -->
                                 <!--end::Li-->
                             </ul>
                             <!--end::Ul-->
@@ -347,6 +349,7 @@
                                             <span class="nav__name">Khuyến mãi</span>
                                         </a>
                                     </li>
+                                    <!--
                                     <li class="nav__item">
                                         <a href="@Url.Action("NewsIndex", "News")" class="nav__link dropdown-toggle
                                            @(ViewContext.RouteData.Values["Action"].ToString() == "ListNewsTags" ? "active-link" : "")
@@ -367,6 +370,7 @@
                                             @Html.Action("Listcategory_mobile", "News")
                                         </ul>
                                     </li>
+                                    -->
                                     <li class="nav__item">
                                         @if (User.Identity.IsAuthenticated == false)
                                         {

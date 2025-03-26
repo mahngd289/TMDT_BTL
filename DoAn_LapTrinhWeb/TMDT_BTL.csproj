@@ -3469,6 +3469,7 @@
     <Content Include="Scripts\my_js\count_visited.js" />
     <Content Include="Scripts\my_js\filter_product.js" />
     <Content Include="Scripts\my_js\comment_post.js" />
+    <Content Include="Scripts\my_js\phone_validation.js" />
     <Content Include="Scripts\my_js\price_format.js" />
     <Content Include="Scripts\my_js\summernote-bs4.min.js" />
     <Content Include="Scripts\my_js\summernote-vi-VN.js" />
